@@ -22,18 +22,18 @@ The thread guides the creator one question or one option card at a time and neve
    it, or `PUT .../videos/<folder>/setup`), for example one host this time in a two-host series. Names and genders shape who says which line and the
    grammar of every line (languages with gendered verbs, e.g. Urdu, Hindi, Arabic: "main gayi thi" for a woman,
    "main gaya tha" for a man).
-4. Create the video after stage 1: `node cli.mjs POST /api/playlists/<slug>/videos @<file>.json` with
+3. Create the video after stage 1: `node cli.mjs POST /api/playlists/<slug>/videos @<file>.json` with
    `{"title": "<destination>", "concept", "links", "length"}` plus any own `kit`, `hosts`. `POST .../plan` writes `plan/brief.md` and the schema.
    Write each plan version to `plan/plan-vN.json`
    (schema in `plan/plan-schema.json`), then `POST .../plan/import`; on approval `POST .../plan/approve`.
-   **This video's setup.** The playlist gives the defaults (kit, format, hosts). Ask once, as options with the
+4. **This video's setup.** The playlist gives the defaults (kit, format, hosts). Ask once, as options with the
    playlist's recommended: does this video follow them, or is it different (another format with a defined flow,
    another kit, other or fewer hosts)? Send only what differs when creating it (`"kit"`, `"format"`, `"hosts":
    [{"name", "gender"}]`), or change it later with `PUT .../videos/<folder>/setup` (`null` puts one back to the
    playlist's) until the plan is approved. `GET .../videos/<folder>` returns the result as `setup`. The video's
    own kit decides the skill: News → `youtube-video`, Remote Documentary → `remote-documentary`, Travel Video
    Editing → `travel-video-editing`; if it is another kit than this skill's, follow that skill instead.
-3. Post a checklist of the stages below and keep it current.
+5. Post a checklist of the stages below and keep it current.
 
 ## Stages and gates
 

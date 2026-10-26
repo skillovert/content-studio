@@ -24,21 +24,21 @@ Every other step is the same. Steps marked *(face)* apply only with the face.
    project memory. No brand guide: ask the creator to say "set up my brand" in the project chat first. No
    narrative principles yet: ask once (see Research) and record them in the guide. A playlist with the Remote
    Documentary kit uses `remote-documentary`, and one with Travel Video Editing uses `travel-video-editing`.
-   **This video's setup.** The playlist gives the defaults (kit, format, hosts). Ask once, as options with the
+2. **This video's setup.** The playlist gives the defaults (kit, format, hosts). Ask once, as options with the
    playlist's recommended: does this video follow them, or is it different (another format with a defined flow,
    another kit, other or fewer hosts)? Send only what differs when creating it (`"kit"`, `"format"`, `"hosts":
    [{"name", "gender"}]`), or change it later with `PUT .../videos/<folder>/setup` (`null` puts one back to the
    playlist's) until the plan is approved. `GET .../videos/<folder>` returns the result as `setup`. The video's
    own kit decides the skill: News → `youtube-video`, Remote Documentary → `remote-documentary`, Travel Video
    Editing → `travel-video-editing`; if it is another kit than this skill's, follow that skill instead.
-4. Create the video through the app: `node cli.mjs POST /api/playlists/<slug>/videos @<file>.json` with
+3. Create the video through the app: `node cli.mjs POST /api/playlists/<slug>/videos @<file>.json` with
    `{"title", "concept", "links", "face", "faceAmount", "faceSeconds"}` plus any own `kit`, `format`, `hosts` (after stage 1). It gives the code and
    the folder. `POST .../plan` writes the brief and schema (`plan/brief.md`, `plan/plan-schema.json`; with feedback
    `{"feedback"}` for a new version). Write the plan yourself to `plan/plan-vN.json` following them, then `POST .../plan/import` (it adds timings and the plan PDF) and, once the creator approves,
    `POST .../plan/approve`. Then send the creator the video page link to press "Make the preview".
-2. Only formats marked *defined* in the guide can be made. Playlist names and card values come only from the
+4. Only formats marked *defined* in the guide can be made. Playlist names and card values come only from the
    taxonomy. Work in this thread only; another video's plan belongs in its own thread.
-3. Post a checklist of the stages below and keep it current. Every step that needs the browser (recording, looks,
+5. Post a checklist of the stages below and keep it current. Every step that needs the browser (recording, looks,
    timeline) is a link the creator opens, works in, and comes back from; say what to do there in one line.
 
 ## Stages and gates
