@@ -1,0 +1,906 @@
+{
+ "title": "Istanbul guide (sample)",
+ "titleRoman": "Istanbul guide",
+ "asOf": "2026-10-01",
+ "newsLabel": "",
+ "summary": "Sample travel plan for style stills.",
+ "causeApproach": "",
+ "card": {
+  "topic": [
+   "Travel"
+  ],
+  "section": "Everyday",
+  "region": [
+   "Turkey"
+  ],
+  "industry": [],
+  "audience": [],
+  "breakout": [],
+  "cause": [
+   "Explained"
+  ]
+ },
+ "standards": [],
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "Sample",
+   "title": "Sample source",
+   "url": "https://example.org",
+   "date": "2026-10-01",
+   "kind": "data"
+  },
+  {
+   "id": "S2",
+   "outlet": "Sample",
+   "title": "Sample source",
+   "url": "https://example.org",
+   "date": "2026-10-01",
+   "kind": "data"
+  },
+  {
+   "id": "S3",
+   "outlet": "Sample",
+   "title": "Sample source",
+   "url": "https://example.org",
+   "date": "2026-10-01",
+   "kind": "data"
+  },
+  {
+   "id": "S4",
+   "outlet": "Sample",
+   "title": "Sample source",
+   "url": "https://example.org",
+   "date": "2026-10-01",
+   "kind": "data"
+  },
+  {
+   "id": "S5",
+   "outlet": "Sample",
+   "title": "Sample source",
+   "url": "https://example.org",
+   "date": "2026-10-01",
+   "kind": "data"
+  }
+ ],
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Hook",
+   "visual": "Fast montage",
+   "onScreen": [],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "speaker": "Sara",
+     "vo": "Before you book Istanbul, here are the things nobody tells you about money, manners and the best months to go.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "",
+      "title": "Istanbul",
+      "items": [
+       {
+        "label": "istanbul bosphorus aerial sunset",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "istanbul grand bazaar crowd lanterns",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "turkish tea glass close up",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "intro",
+   "title": "Studio intro",
+   "visual": "Hosts in studio",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "speaker": "all",
+     "vo": "Welcome to Destinations and Places. Today it is Istanbul, for a five hundred or a five thousand dollar trip.",
+     "cue": "",
+     "layout": "studio",
+     "faceFor": 0,
+     "graphic": {
+      "type": "checklist",
+      "kicker": "CHAPTERS",
+      "title": "Istanbul guide",
+      "items": [
+       {
+        "label": "Where it is",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Weather",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Sights",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Manners",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Hotels",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Budget",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Omar",
+     "vo": "Sara, you start with the map, and I will take the money part later.",
+     "cue": "",
+     "layout": "studio",
+     "faceFor": 0,
+     "graphic": {
+      "type": "checklist",
+      "kicker": "CHAPTERS",
+      "title": "Istanbul guide",
+      "items": [
+       {
+        "label": "Where it is",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Weather",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Sights",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "geography",
+   "title": "Where it is",
+   "visual": "Map zoom",
+   "onScreen": [],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "speaker": "Sara",
+     "vo": "Istanbul sits on two continents, split by the Bosphorus strait between Europe and Asia.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "map",
+      "kicker": "",
+      "title": "TURKEY · WHERE IT IS",
+      "items": [
+       {
+        "label": "Turkey",
+        "value": "",
+        "detail": "",
+        "tone": "accent"
+       },
+       {
+        "label": "Istanbul",
+        "value": "Two continents",
+        "detail": "41.01, 28.98",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Sara",
+     "vo": "The old city, Sultanahmet, sits on the European side, and ferries cross to Asia every few minutes for about forty lira.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "EUROPE · ASIA",
+      "title": "Sultanahmet",
+      "items": [
+       {
+        "label": "istanbul ferry bosphorus crossing",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "sultanahmet old city street morning",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Sara",
+     "vo": "Most visitors land at Istanbul Airport on the European side, about forty kilometres from the old city.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "route",
+      "kicker": "FLIGHT",
+      "title": "Lahore → Istanbul",
+      "items": [
+       {
+        "label": "Lahore",
+        "value": "5h 50m",
+        "detail": "31.52, 74.36",
+        "tone": "neutral"
+       },
+       {
+        "label": "Istanbul",
+        "value": "",
+        "detail": "41.01, 28.98",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "weather",
+   "title": "Best time to visit",
+   "visual": "Weather chart",
+   "onScreen": [],
+   "sourceIds": [
+    "S2"
+   ],
+   "lines": [
+    {
+     "speaker": "Sara",
+     "vo": "Spring and early autumn are the sweet spot: warm days, fewer crowds and lower hotel prices.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "weather",
+      "kicker": "CLIMATE NORMALS · SAMPLE",
+      "title": "Best months",
+      "items": [
+       {
+        "label": "Jan",
+        "value": "9",
+        "detail": "105",
+        "tone": "bad"
+       },
+       {
+        "label": "Feb",
+        "value": "9",
+        "detail": "80",
+        "tone": "bad"
+       },
+       {
+        "label": "Mar",
+        "value": "12",
+        "detail": "70",
+        "tone": "warn"
+       },
+       {
+        "label": "Apr",
+        "value": "17",
+        "detail": "45",
+        "tone": "good"
+       },
+       {
+        "label": "May",
+        "value": "22",
+        "detail": "35",
+        "tone": "good"
+       },
+       {
+        "label": "Jun",
+        "value": "27",
+        "detail": "35",
+        "tone": "warn"
+       },
+       {
+        "label": "Jul",
+        "value": "29",
+        "detail": "35",
+        "tone": "warn"
+       },
+       {
+        "label": "Aug",
+        "value": "29",
+        "detail": "40",
+        "tone": "warn"
+       },
+       {
+        "label": "Sep",
+        "value": "25",
+        "detail": "60",
+        "tone": "good"
+       },
+       {
+        "label": "Oct",
+        "value": "20",
+        "detail": "90",
+        "tone": "good"
+       },
+       {
+        "label": "Nov",
+        "value": "15",
+        "detail": "100",
+        "tone": "warn"
+       },
+       {
+        "label": "Dec",
+        "value": "11",
+        "detail": "120",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Sara",
+     "vo": "In April the tulip festival fills every park, and in October the sea is still warm enough for a boat day.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "APRIL",
+      "title": "Emirgan Park",
+      "items": [
+       {
+        "label": "istanbul tulip festival park",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "bosphorus boat tour autumn",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "sights",
+   "title": "Top sights",
+   "visual": "Footage",
+   "onScreen": [],
+   "sourceIds": [
+    "S3"
+   ],
+   "lines": [
+    {
+     "speaker": "Omar",
+     "vo": "Five places you cannot miss, and what each one costs to get in.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "#1 OF 5",
+      "title": "Hagia Sophia",
+      "items": [
+       {
+        "label": "hagia sophia exterior morning",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "hagia sophia interior dome light",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Sara",
+     "vo": "The Basilica Cistern feels like an underground cathedral, with columns rising out of the water.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "ENTRY · PAID",
+      "title": "Basilica Cistern",
+      "items": [
+       {
+        "label": "basilica cistern columns lights water",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "culture",
+   "title": "Manners",
+   "visual": "Do and dont",
+   "onScreen": [],
+   "sourceIds": [
+    "S4"
+   ],
+   "lines": [
+    {
+     "speaker": "Sara",
+     "vo": "Mosques are free to enter outside prayer times; cover your shoulders and knees, and take your shoes off at the door.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "FREE ENTRY",
+      "title": "Blue Mosque",
+      "items": [
+       {
+        "label": "blue mosque istanbul interior",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "tourists removing shoes mosque entrance",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Sara",
+     "vo": "A few manners go a long way here.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "dosdonts",
+      "kicker": "MANNERS",
+      "title": "In mosques and markets",
+      "items": [
+       {
+        "label": "Cover shoulders and knees",
+        "value": "In every mosque",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "Take shoes off",
+        "value": "At the mosque door",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "Point your feet at people",
+        "value": "It is rude",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Visit during prayer times",
+        "value": "Wait outside",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "safety",
+   "title": "Language",
+   "visual": "Phrase cards",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "speaker": "Omar",
+     "vo": "Three words will get you smiles everywhere.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "phrases",
+      "kicker": "TURKISH",
+      "title": "",
+      "items": [
+       {
+        "label": "Merhaba",
+        "value": "mehr-ha-bah",
+        "detail": "Hello",
+        "tone": "neutral"
+       },
+       {
+        "label": "Teşekkürler",
+        "value": "teh-shek-kur-ler",
+        "detail": "Thank you",
+        "tone": "neutral"
+       },
+       {
+        "label": "Ne kadar?",
+        "value": "neh ka-dar",
+        "detail": "How much?",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "stay",
+   "title": "Where to stay",
+   "visual": "Tiers",
+   "onScreen": [],
+   "sourceIds": [
+    "S5"
+   ],
+   "lines": [
+    {
+     "speaker": "Omar",
+     "vo": "Hotels come in three clear price bands, depending on the area.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "tiers",
+      "kicker": "PER NIGHT · SAMPLE",
+      "title": "Where to stay",
+      "items": [
+       {
+        "label": "$ Budget",
+        "value": "$30",
+        "detail": "Hostels in Sultanahmet",
+        "tone": "neutral"
+       },
+       {
+        "label": "$$ Mid-range",
+        "value": "$90",
+        "detail": "Boutique hotels in Beyoglu",
+        "tone": "neutral"
+       },
+       {
+        "label": "$$$ Luxury",
+        "value": "$300+",
+        "detail": "Bosphorus view hotels",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "budget",
+   "title": "Budget",
+   "visual": "Tiers",
+   "onScreen": [],
+   "sourceIds": [
+    "S5"
+   ],
+   "lines": [
+    {
+     "speaker": "Omar",
+     "vo": "Street food keeps it cheap: a simit is about fifteen lira and a fish sandwich by the Galata Bridge about two hundred.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "footage",
+      "kicker": "STREET FOOD",
+      "title": "Galata Bridge",
+      "items": [
+       {
+        "label": "istanbul simit street vendor",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "balik ekmek fish sandwich galata bridge",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "speaker": "Omar",
+     "vo": "Here is what a day really costs.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "tiers",
+      "kicker": "PER DAY · SAMPLE",
+      "title": "Daily budget",
+      "items": [
+       {
+        "label": "Backpacker",
+        "value": "$40",
+        "detail": "Stay $15 · Food $12 · Transport $5 · Sights $8",
+        "tone": "neutral"
+       },
+       {
+        "label": "Comfort",
+        "value": "$120",
+        "detail": "Stay $60 · Food $30 · Transport $10 · Sights $20",
+        "tone": "neutral"
+       },
+       {
+        "label": "Luxury",
+        "value": "$350",
+        "detail": "Stay $220 · Food $70 · Transport $30 · Sights $30",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "transport",
+   "title": "Getting around",
+   "visual": "A road trip on the map",
+   "onScreen": [
+    "Istanbul → Ankara"
+   ],
+   "lines": [
+    {
+     "speaker": "Omar",
+     "vo": "With a car, Ankara is an easy day's drive: stop for breakfast at Sapanca Lake, take the mountain road past Bolu, and you are in the capital by dinner.",
+     "cue": "",
+     "layout": "voice",
+     "faceFor": 0,
+     "graphic": {
+      "type": "roadtrip",
+      "kicker": "ROAD TRIP · SAMPLE",
+      "title": "Istanbul → Ankara",
+      "items": [
+       {
+        "label": "Istanbul",
+        "value": "",
+        "detail": "41.01, 28.98",
+        "tone": "neutral"
+       },
+       {
+        "label": "Izmit",
+        "value": "110 km · 1h 20m",
+        "detail": "40.77, 29.92",
+        "tone": "neutral"
+       },
+       {
+        "label": "Sapanca",
+        "value": "35 km · 30 min",
+        "detail": "40.69, 30.27",
+        "tone": "neutral"
+       },
+       {
+        "label": "Bolu",
+        "value": "130 km · 1h 30m",
+        "detail": "40.73, 31.61",
+        "tone": "neutral"
+       },
+       {
+        "label": "Ankara",
+        "value": "190 km · 2h",
+        "detail": "39.93, 32.86",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [
+       "Izmit Bay | 40.72, 29.75 | sea | the coast road",
+       "Sapanca Lake | 40.70, 30.25 | lake | breakfast by the water",
+       "Abant Lake | 40.61, 31.28 | lake | a 30 min detour",
+       "Bolu Mountains | 40.80, 31.25 | hills | forest and tunnels",
+       "Köroğlu rest area | 40.55, 32.20 | food | tea and gözleme"
+      ],
+      "stamp": "O-4",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ],
+   "sourceIds": []
+  },
+  {
+   "kind": "verdict",
+   "title": "Verdict",
+   "visual": "Rating",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "speaker": "all",
+     "vo": "Our verdict on Istanbul: an eight for friendliness, a nine for value, an eight for safety, and a perfect ten for the food. Best for couples and history lovers.",
+     "cue": "",
+     "layout": "studio",
+     "faceFor": 0,
+     "graphic": {
+      "type": "rating",
+      "kicker": "VERDICT",
+      "title": "Worth every day",
+      "items": [
+       {
+        "label": "Tourist friendliness",
+        "value": "8/10",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Value for money",
+        "value": "9/10",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Safety",
+        "value": "8/10",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "Food",
+        "value": "10/10",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "BEST FOR · couples · history lovers",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  }
+ ],
+ "quotes": [],
+ "thumbnail": {
+  "jargonTitle": "Istanbul",
+  "urduLine": "5 days\nunder [[$500]]",
+  "urduLineRoman": "",
+  "lines": [],
+  "stamp": "",
+  "keyVisual": "Bosphorus at sunset"
+ },
+ "youtube": {
+  "description": "",
+  "tags": [],
+  "hashtags": []
+ },
+ "conceptItems": [],
+ "openQuestions": [],
+ "kit": "travel-doc",
+ "hosts": [
+  {
+   "name": "Sara",
+   "gender": "female"
+  },
+  {
+   "name": "Omar",
+   "gender": "male"
+  }
+ ]
+}

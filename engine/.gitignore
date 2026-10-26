@@ -1,0 +1,4 @@
+node_modules
+# copied in before each render (brand files from the channel folder, theme fonts)
+public/brand/
+public/fonts/themes/

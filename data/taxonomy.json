@@ -1,0 +1,891 @@
+{
+ "version": 1,
+ "source": "BRAND-GUIDE.md A1 (24 Oct 2026)",
+ "order": [
+  "topic",
+  "section",
+  "format",
+  "label",
+  "region",
+  "industry",
+  "audience",
+  "breakout",
+  "cause"
+ ],
+ "fields": {
+  "topic": {
+   "label": "Topic",
+   "rule": "min1",
+   "values": [
+    {
+     "value": "AI",
+     "hashtag": "#AI"
+    },
+    {
+     "value": "Cybersecurity",
+     "hashtag": "#CyberSecurity"
+    },
+    {
+     "value": "Privacy",
+     "hashtag": "#Privacy"
+    },
+    {
+     "value": "Payments",
+     "hashtag": "#Payments"
+    },
+    {
+     "value": "Crypto",
+     "hashtag": "#Crypto"
+    },
+    {
+     "value": "Cloud",
+     "hashtag": "#Cloud"
+    },
+    {
+     "value": "Data Centres",
+     "hashtag": "#DataCentres"
+    },
+    {
+     "value": "Internet",
+     "hashtag": "#Internet"
+    },
+    {
+     "value": "Mobile Networks",
+     "hashtag": "#MobileNetworks"
+    },
+    {
+     "value": "Satellites",
+     "hashtag": "#Satellites"
+    },
+    {
+     "value": "Chips",
+     "hashtag": "#Chips"
+    },
+    {
+     "value": "Gadgets",
+     "hashtag": "#Gadgets"
+    },
+    {
+     "value": "Apps",
+     "hashtag": "#Apps"
+    },
+    {
+     "value": "Social Media",
+     "hashtag": "#SocialMedia"
+    },
+    {
+     "value": "Software",
+     "hashtag": "#Software"
+    },
+    {
+     "value": "Open Source",
+     "hashtag": "#OpenSource"
+    },
+    {
+     "value": "E-Gov",
+     "hashtag": "#EGov"
+    },
+    {
+     "value": "Digital ID",
+     "hashtag": "#DigitalID"
+    },
+    {
+     "value": "Creator Economy",
+     "hashtag": "#CreatorEconomy"
+    },
+    {
+     "value": "Freelancing",
+     "hashtag": "#Freelancing"
+    },
+    {
+     "value": "Startups",
+     "hashtag": "#Startups"
+    },
+    {
+     "value": "Skills",
+     "hashtag": "#Skills"
+    }
+   ]
+  },
+  "section": {
+   "label": "Section",
+   "rule": "one",
+   "values": [
+    {
+     "value": "Policy",
+     "hashtag": "#Policy"
+    },
+    {
+     "value": "Economy",
+     "hashtag": "#Economy"
+    },
+    {
+     "value": "Engineering",
+     "hashtag": "#Engineering"
+    },
+    {
+     "value": "Safety",
+     "hashtag": "#Safety"
+    },
+    {
+     "value": "Everyday",
+     "hashtag": "#Everyday"
+    },
+    {
+     "value": "Talent",
+     "hashtag": "#Talent"
+    },
+    {
+     "value": "Audits",
+     "hashtag": "#Audits"
+    },
+    {
+     "value": "Geopolitics",
+     "hashtag": "#Geopolitics"
+    },
+    {
+     "value": "Horizons",
+     "hashtag": "#Horizons"
+    },
+    {
+     "value": "Data",
+     "hashtag": "#Data"
+    }
+   ]
+  },
+  "format": {
+   "label": "Format",
+   "rule": "one",
+   "values": [
+    {
+     "value": "News",
+     "hashtag": "#TechNews"
+    },
+    {
+     "value": "Brief",
+     "hashtag": ""
+    },
+    {
+     "value": "Live",
+     "hashtag": "#Live"
+    },
+    {
+     "value": "Explainer",
+     "hashtag": "#Explainer"
+    },
+    {
+     "value": "Analysis",
+     "hashtag": "#Analysis"
+    },
+    {
+     "value": "Opinion",
+     "hashtag": "#Opinion"
+    },
+    {
+     "value": "Interview",
+     "hashtag": "#Interview"
+    },
+    {
+     "value": "Review",
+     "hashtag": "#Review"
+    },
+    {
+     "value": "Data",
+     "hashtag": "#Data"
+    }
+   ]
+  },
+  "label": {
+   "label": "News label",
+   "rule": "optional",
+   "values": [
+    {
+     "value": "Breaking",
+     "hashtag": "#BreakingNews"
+    },
+    {
+     "value": "Developing",
+     "hashtag": "#DevelopingNews"
+    },
+    {
+     "value": "Follow-up",
+     "hashtag": "#FollowUp"
+    },
+    {
+     "value": "Scheduled",
+     "hashtag": ""
+    },
+    {
+     "value": "Exclusive",
+     "hashtag": "#ExclusiveNews"
+    },
+    {
+     "value": "Investigation",
+     "hashtag": "#Investigation"
+    },
+    {
+     "value": "Evergreen",
+     "hashtag": ""
+    }
+   ]
+  },
+  "region": {
+   "label": "Region",
+   "rule": "min1",
+   "values": [
+    {
+     "value": "Pakistan",
+     "hashtag": "#Pakistan"
+    },
+    {
+     "value": "Punjab",
+     "hashtag": "#Punjab"
+    },
+    {
+     "value": "Sindh",
+     "hashtag": "#Sindh"
+    },
+    {
+     "value": "KP",
+     "hashtag": "#KhyberPakhtunkhwa"
+    },
+    {
+     "value": "Balochistan",
+     "hashtag": "#Balochistan"
+    },
+    {
+     "value": "Islamabad",
+     "hashtag": "#Islamabad"
+    },
+    {
+     "value": "GB",
+     "hashtag": "#GilgitBaltistan"
+    },
+    {
+     "value": "AJK",
+     "hashtag": "#AJK"
+    },
+    {
+     "value": "South Asia",
+     "hashtag": "#SouthAsia"
+    },
+    {
+     "value": "Gulf",
+     "hashtag": "#Gulf"
+    },
+    {
+     "value": "China",
+     "hashtag": "#China"
+    },
+    {
+     "value": "US",
+     "hashtag": "#USA"
+    },
+    {
+     "value": "Europe",
+     "hashtag": "#Europe"
+    },
+    {
+     "value": "Global",
+     "hashtag": ""
+    }
+   ],
+   "groups": {
+    "Pakistan": [
+     "Punjab",
+     "Sindh",
+     "KP",
+     "Balochistan",
+     "Islamabad",
+     "GB",
+     "AJK"
+    ]
+   }
+  },
+  "industry": {
+   "label": "Industry",
+   "rule": "many",
+   "values": [
+    {
+     "value": "Banking",
+     "hashtag": "#Banking"
+    },
+    {
+     "value": "Fintech",
+     "hashtag": "#Fintech"
+    },
+    {
+     "value": "Telecom",
+     "hashtag": "#Telecom"
+    },
+    {
+     "value": "Software",
+     "hashtag": "#Software"
+    },
+    {
+     "value": "E-commerce",
+     "hashtag": "#Ecommerce"
+    },
+    {
+     "value": "Retail",
+     "hashtag": "#Retail"
+    },
+    {
+     "value": "Media",
+     "hashtag": "#Media"
+    },
+    {
+     "value": "Education",
+     "hashtag": "#Education"
+    },
+    {
+     "value": "Healthcare",
+     "hashtag": "#Healthcare"
+    },
+    {
+     "value": "Government",
+     "hashtag": "#Government"
+    },
+    {
+     "value": "Energy",
+     "hashtag": "#Energy"
+    },
+    {
+     "value": "Textiles",
+     "hashtag": "#Textiles"
+    },
+    {
+     "value": "Agriculture",
+     "hashtag": "#Agriculture"
+    },
+    {
+     "value": "Manufacturing",
+     "hashtag": "#Manufacturing"
+    },
+    {
+     "value": "Logistics",
+     "hashtag": "#Logistics"
+    },
+    {
+     "value": "Transport",
+     "hashtag": "#Transport"
+    },
+    {
+     "value": "Real Estate",
+     "hashtag": "#RealEstate"
+    },
+    {
+     "value": "Insurance",
+     "hashtag": "#Insurance"
+    },
+    {
+     "value": "Gaming",
+     "hashtag": "#Gaming"
+    },
+    {
+     "value": "Legal",
+     "hashtag": "#Legal"
+    }
+   ]
+  },
+  "audience": {
+   "label": "Audience",
+   "rule": "many",
+   "values": [
+    {
+     "value": "Creators",
+     "hashtag": "#Creators"
+    },
+    {
+     "value": "Freelancers",
+     "hashtag": "#Freelancers"
+    },
+    {
+     "value": "Students",
+     "hashtag": "#Students"
+    },
+    {
+     "value": "Developers",
+     "hashtag": "#Developers"
+    },
+    {
+     "value": "Security Pros",
+     "hashtag": "#InfoSec"
+    },
+    {
+     "value": "Founders",
+     "hashtag": "#Founders"
+    },
+    {
+     "value": "Businesses",
+     "hashtag": "#Businesses"
+    },
+    {
+     "value": "Investors",
+     "hashtag": "#Investors"
+    },
+    {
+     "value": "Consumers",
+     "hashtag": "#Consumers"
+    },
+    {
+     "value": "Parents",
+     "hashtag": "#Parents"
+    },
+    {
+     "value": "Educators",
+     "hashtag": "#Educators"
+    },
+    {
+     "value": "Government",
+     "hashtag": "#Government"
+    },
+    {
+     "value": "Journalists",
+     "hashtag": "#Journalists"
+    }
+   ]
+  },
+  "breakout": {
+   "label": "Breakout",
+   "rule": "optional-many",
+   "values": [
+    {
+     "value": "Firewall",
+     "hashtag": "#PakistanFirewall"
+    },
+    {
+     "value": "Shutdowns",
+     "hashtag": "#InternetShutdown"
+    },
+    {
+     "value": "Cable Cuts",
+     "hashtag": "#CableCuts"
+    },
+    {
+     "value": "PECA",
+     "hashtag": "#PECA"
+    },
+    {
+     "value": "Starlink",
+     "hashtag": "#StarlinkPakistan"
+    },
+    {
+     "value": "5G Rollout",
+     "hashtag": "#5GPakistan"
+    },
+    {
+     "value": "Phone Taxes",
+     "hashtag": "#PTATax"
+    },
+    {
+     "value": "Freelancer Tax",
+     "hashtag": "#FreelancerTax"
+    },
+    {
+     "value": "Payout Rails",
+     "hashtag": "#PayoutRails"
+    },
+    {
+     "value": "Raast",
+     "hashtag": "#Raast"
+    },
+    {
+     "value": "Digital Rupee",
+     "hashtag": "#DigitalRupee"
+    },
+    {
+     "value": "Crypto Rules",
+     "hashtag": "#CryptoRules"
+    },
+    {
+     "value": "Data Leaks",
+     "hashtag": "#DataLeak"
+    },
+    {
+     "value": "Online Scams",
+     "hashtag": "#OnlineScams"
+    },
+    {
+     "value": "Brain Drain",
+     "hashtag": "#BrainDrain"
+    },
+    {
+     "value": "IT Exports",
+     "hashtag": "#ITExports"
+    },
+    {
+     "value": "AI Policy",
+     "hashtag": "#AIPolicy"
+    },
+    {
+     "value": "Tech Zones",
+     "hashtag": "#TechZones"
+    },
+    {
+     "value": "Power Crisis",
+     "hashtag": "#PowerCrisis"
+    },
+    {
+     "value": "Remote Work",
+     "hashtag": "#RemoteWork"
+    }
+   ]
+  },
+  "cause": {
+   "label": "Cause",
+   "rule": "min1",
+   "values": [
+    {
+     "value": "No Hype",
+     "hashtag": ""
+    },
+    {
+     "value": "Expert Voice",
+     "hashtag": "#ExpertVoice"
+    },
+    {
+     "value": "Stay Safe",
+     "hashtag": "#StaySafeOnline"
+    },
+    {
+     "value": "Fact Check",
+     "hashtag": "#FactCheck"
+    },
+    {
+     "value": "Plain Law",
+     "hashtag": "#PlainLaw"
+    },
+    {
+     "value": "Digital Rights",
+     "hashtag": "#DigitalRights"
+    },
+    {
+     "value": "Privacy First",
+     "hashtag": "#PrivacyFirst"
+    },
+    {
+     "value": "Accountability",
+     "hashtag": "#Accountability"
+    },
+    {
+     "value": "Open Data",
+     "hashtag": "#OpenData"
+    },
+    {
+     "value": "Consumer Rights",
+     "hashtag": "#ConsumerRights"
+    },
+    {
+     "value": "Fair Pay",
+     "hashtag": "#FairPay"
+    },
+    {
+     "value": "Local Builders",
+     "hashtag": "#LocalBuilders"
+    },
+    {
+     "value": "Talent Growth",
+     "hashtag": "#TalentGrowth"
+    },
+    {
+     "value": "Digital Literacy",
+     "hashtag": "#DigitalLiteracy"
+    },
+    {
+     "value": "Inclusion",
+     "hashtag": "#Inclusion"
+    },
+    {
+     "value": "Child Safety",
+     "hashtag": "#ChildSafety"
+    },
+    {
+     "value": "Cyber Resilience",
+     "hashtag": "#CyberResilience"
+    },
+    {
+     "value": "Ease of Business",
+     "hashtag": "#EaseOfBusiness"
+    },
+    {
+     "value": "Green Tech",
+     "hashtag": "#GreenTech"
+    },
+    {
+     "value": "Future Ready",
+     "hashtag": "#FutureReady"
+    },
+    {
+     "value": "Explained",
+     "hashtag": "#NewsExplained"
+    }
+   ]
+  }
+ },
+ "standards": [
+  {
+   "name": "Two Sources",
+   "rule": "Every key claim rests on two independent sources or one primary document.",
+   "appliesTo": {
+    "all": true
+   }
+  },
+  {
+   "name": "Primary First",
+   "rule": "Link the original document: gazette, circular, filing, court order or dataset.",
+   "appliesTo": {
+    "all": true
+   }
+  },
+  {
+   "name": "No Hype",
+   "rule": "Headline matches the body. No clickbait, no unverified superlatives.",
+   "appliesTo": {
+    "all": true
+   }
+  },
+  {
+   "name": "Clear Labels",
+   "rule": "News, opinion, review and sponsored content are labelled as what they are.",
+   "appliesTo": {
+    "all": true
+   }
+  },
+  {
+   "name": "Open Corrections",
+   "rule": "Errors are fixed in the open with a dated note; never silently edited.",
+   "appliesTo": {
+    "all": true
+   }
+  },
+  {
+   "name": "Verified Media",
+   "rule": "Images and video checked for origin and date; AI-made visuals marked.",
+   "appliesTo": {
+    "media": true
+   }
+  },
+  {
+   "name": "Breaking Discipline",
+   "rule": "Confirmed by an official or two sources before it is called Breaking; unconfirmed facts flagged.",
+   "appliesTo": {
+    "label": [
+     "Breaking",
+     "Developing"
+    ]
+   }
+  },
+  {
+   "name": "Right of Reply",
+   "rule": "Named people or organisations are asked to respond before publishing.",
+   "appliesTo": {
+    "section": [
+     "Audits",
+     "Policy"
+    ],
+    "cause": [
+     "Accountability"
+    ],
+    "label": [
+     "Exclusive",
+     "Investigation"
+    ]
+   }
+  },
+  {
+   "name": "Harm Check",
+   "rule": "No personal data, victim identities or details that put people at risk.",
+   "appliesTo": {
+    "section": [
+     "Safety",
+     "Audits"
+    ],
+    "topic": [
+     "Cybersecurity",
+     "Privacy"
+    ],
+    "cause": [
+     "Stay Safe",
+     "Privacy First",
+     "Child Safety"
+    ]
+   }
+  },
+  {
+   "name": "Responsible Disclosure",
+   "rule": "No working exploits or unpatched details; vendor or CERT contacted first.",
+   "appliesTo": {
+    "topic": [
+     "Cybersecurity"
+    ],
+    "section": [
+     "Safety",
+     "Engineering"
+    ],
+    "cause": [
+     "Cyber Resilience"
+    ]
+   }
+  },
+  {
+   "name": "Action Steps",
+   "rule": "Tells the audience exactly what to do next and where to get help.",
+   "appliesTo": {
+    "section": [
+     "Safety",
+     "Everyday"
+    ],
+    "cause": [
+     "Stay Safe",
+     "Consumer Rights",
+     "Digital Literacy"
+    ]
+   }
+  },
+  {
+   "name": "Expert Review",
+   "rule": "Checked by a working practitioner in the field before publishing.",
+   "appliesTo": {
+    "section": [
+     "Engineering",
+     "Horizons"
+    ],
+    "format": [
+     "Explainer",
+     "Analysis"
+    ],
+    "cause": [
+     "Expert Voice"
+    ]
+   }
+  },
+  {
+   "name": "Data Integrity",
+   "rule": "Method, source, date and units shown; no cherry-picked ranges.",
+   "appliesTo": {
+    "section": [
+     "Data",
+     "Economy"
+    ],
+    "format": [
+     "Data"
+    ],
+    "cause": [
+     "Open Data"
+    ]
+   }
+  },
+  {
+   "name": "Plain Language",
+   "rule": "Laws and technology explained for a non-expert; jargon defined.",
+   "appliesTo": {
+    "section": [
+     "Policy",
+     "Everyday"
+    ],
+    "format": [
+     "Explainer"
+    ],
+    "cause": [
+     "Plain Law",
+     "Digital Literacy"
+    ]
+   }
+  },
+  {
+   "name": "Fair Balance",
+   "rule": "Credible opposing views included; our advocacy stated openly, never hidden.",
+   "appliesTo": {
+    "section": [
+     "Policy",
+     "Geopolitics"
+    ],
+    "format": [
+     "Analysis",
+     "Opinion"
+    ],
+    "cause": [
+     "Digital Rights"
+    ]
+   }
+  },
+  {
+   "name": "Conflict Disclosure",
+   "rule": "Any tie to an advertiser, partner or product named in the piece is disclosed.",
+   "appliesTo": {
+    "format": [
+     "Review"
+    ],
+    "section": [
+     "Economy"
+    ],
+    "partner": true
+   }
+  },
+  {
+   "name": "Market Neutral",
+   "rule": "No investment advice; we hold no position in what we cover.",
+   "appliesTo": {
+    "topic": [
+     "Crypto",
+     "Startups"
+    ],
+    "section": [
+     "Economy"
+    ],
+    "audience": [
+     "Investors"
+    ]
+   }
+  },
+  {
+   "name": "Child Safeguard",
+   "rule": "No identifiable minors; extra care with content children may see.",
+   "appliesTo": {
+    "audience": [
+     "Parents",
+     "Students"
+    ],
+    "cause": [
+     "Child Safety"
+    ]
+   }
+  },
+  {
+   "name": "Inclusive Voices",
+   "rule": "Sources reflect gender, provinces and languages; no stereotypes.",
+   "appliesTo": {
+    "cause": [
+     "Inclusion"
+    ],
+    "region": [
+     "Pakistan",
+     "Punjab",
+     "Sindh",
+     "KP",
+     "Balochistan",
+     "Islamabad",
+     "GB",
+     "AJK"
+    ]
+   }
+  },
+  {
+   "name": "Fact-Check Trail",
+   "rule": "Publishes the claim, the verdict and the evidence behind it.",
+   "appliesTo": {
+    "cause": [
+     "Fact Check"
+    ]
+   }
+  }
+ ],
+ "formats": {
+  "News": {
+   "flow": "defined",
+   "ref": "BRAND-GUIDE C1",
+   "base": "N01"
+  }
+ }
+}

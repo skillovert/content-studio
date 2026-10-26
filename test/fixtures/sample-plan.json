@@ -1,0 +1,844 @@
+{
+ "title": "PHP2Shell: Critical PHP RCE",
+ "titleRoman": "\"PHP2Shell\": \"PHP\" mein 2 critical bugs",
+ "asOf": "2026-10-23",
+ "newsLabel": "Breaking",
+ "summary": "Two critical PHP bugs let attackers run code on servers without a login. Patches are out and attacks have started.",
+ "causeApproach": "Explained: what it is, who is hit, how to fix.",
+ "card": {
+  "topic": [
+   "Cybersecurity",
+   "Software"
+  ],
+  "section": "Safety",
+  "region": [
+   "Global",
+   "Pakistan"
+  ],
+  "industry": [
+   "Software"
+  ],
+  "audience": [
+   "Developers",
+   "Businesses"
+  ],
+  "breakout": [],
+  "cause": [
+   "Explained",
+   "Stay Safe"
+  ]
+ },
+ "standards": [
+  {
+   "name": "Two Sources",
+   "how": "Qualys and PHP advisory"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "GitHub · php/php-src",
+   "title": "Security advisory",
+   "url": "https://github.com/php/php-src/security",
+   "date": "2026-10-21",
+   "kind": "primary"
+  },
+  {
+   "id": "S2",
+   "outlet": "Qualys",
+   "title": "PHP announces critical security release",
+   "url": "https://blog.qualys.com/",
+   "date": "2026-10-20",
+   "kind": "report"
+  },
+  {
+   "id": "S3",
+   "outlet": "Check Point",
+   "title": "PHP2Shell Update: One in ten organizations impacted as Europe bears the brunt",
+   "url": "https://research.checkpoint.com/",
+   "date": "2026-10-22",
+   "kind": "data"
+  },
+  {
+   "id": "S4",
+   "outlet": "The Hacker News",
+   "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws Trigger Emergency Security Alert",
+   "url": "https://thehackernews.com/",
+   "date": "2026-10-21",
+   "kind": "report"
+  }
+ ],
+ "quotes": [
+  {
+   "speaker": "Wiz Research",
+   "text": "These findings rank among the most severe vulnerabilities discovered in PHP, and arguably in software history.",
+   "sourceId": "S2",
+   "date": "2026-10-21"
+  }
+ ],
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Hook",
+   "visual": "",
+   "onScreen": [
+    "PHP2Shell"
+   ],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "vo": "Breaking news: \"PHP\" mein do critical \"vulnerabilities\" saamne aayi hain, jinhein \"PHP2Shell\" kaha ja raha hai.",
+     "cue": "",
+     "graphic": {
+      "type": "title",
+      "kicker": "CVE-2026-109618 · CVE-2026-109619 · CVSS 9.2",
+      "title": "PHP2Shell",
+      "items": [],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "intro",
+   "title": "Intro",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "vo": "Assalam o Alaikum, main hoon Aqsa Jamil, aur aaj hum dekhenge kya hua aur aap apni site kaise bachayen.",
+     "cue": "",
+     "graphic": {
+      "type": "presenter",
+      "kicker": "",
+      "title": "",
+      "items": [
+       {
+        "label": "the news",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "what is PHP2Shell",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "fix your site",
+        "value": "",
+        "detail": "",
+        "tone": "good"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "montage",
+   "title": "Coverage",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S3",
+    "S4"
+   ],
+   "lines": [
+    {
+     "vo": "Duniya bhar ki \"security\" news mein yahi story chhayi hui hai.",
+     "cue": "",
+     "graphic": {
+      "type": "clippings",
+      "kicker": "",
+      "title": "COVERAGE · 21-23 OCT",
+      "items": [
+       {
+        "label": "The Hacker News",
+        "value": "21 OCT 2026",
+        "detail": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws Trigger Emergency Security Alert",
+        "tone": "neutral"
+       },
+       {
+        "label": "Check Point",
+        "value": "22 OCT 2026",
+        "detail": "PHP2Shell Update: One in ten organizations impacted as Europe bears the brunt",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [
+       "Emergency Security Alert",
+       "One in ten organizations"
+      ],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "\"Wiz\" ke researchers kehte hain ye \"PHP\" ki sab se khatarnak \"bugs\" mein se hain.",
+     "cue": "",
+     "graphic": {
+      "type": "quote",
+      "kicker": "QUOTE · VIA QUALYS · 21 OCT 2026",
+      "title": "Wiz Research",
+      "items": [],
+      "lines": [
+       "These findings rank among the most severe vulnerabilities discovered in PHP, and arguably in software history."
+      ],
+      "stamp": "",
+      "highlights": [
+       "most severe vulnerabilities",
+       "software history"
+      ],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "timeline",
+   "title": "Timeline",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S1",
+    "S2"
+   ],
+   "lines": [
+    {
+     "vo": "August mein \"bug\" mila aur \"PHP\" ko private report hua.",
+     "cue": "",
+     "graphic": {
+      "type": "timeline",
+      "kicker": "",
+      "title": "2026",
+      "items": [
+       {
+        "label": "19 Aug",
+        "value": "found",
+        "detail": "Wiz · Calif",
+        "tone": "bad"
+       },
+       {
+        "label": "24 Aug",
+        "value": "reported",
+        "detail": "private → PHP",
+        "tone": "bad"
+       },
+       {
+        "label": "20 Oct",
+        "value": "leaked",
+        "detail": "details public early",
+        "tone": "warn"
+       },
+       {
+        "label": "21 Oct",
+        "value": "patched",
+        "detail": "13:52 UTC",
+        "tone": "good"
+       }
+      ],
+      "lines": [],
+      "stamp": "LEAKED",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "20 October ko details \"leak\" ho gayin, aur 21 October ko \"patch\" aa gaya.",
+     "cue": "",
+     "graphic": {
+      "type": "continue",
+      "kicker": "",
+      "title": "",
+      "items": [],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "map",
+   "title": "Map",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S3"
+   ],
+   "lines": [
+    {
+     "vo": "\"Check Point\" ke mutabiq Europe mein sab se zyada attacks hue.",
+     "cue": "",
+     "graphic": {
+      "type": "map",
+      "kicker": "",
+      "title": "CHECK POINT RESEARCH · 22 OCT",
+      "items": [
+       {
+        "label": "Turkey",
+        "value": "11%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "India",
+        "value": "14%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Thailand",
+        "value": "17%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Brazil",
+        "value": "10%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Pakistan",
+        "value": "9%",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "numbers",
+   "title": "Numbers",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S2"
+   ],
+   "lines": [
+    {
+     "vo": "Duniya mein \"PHP\" ki 167 million installs hain, aur 71 percent purane versions par hain.",
+     "cue": "",
+     "graphic": {
+      "type": "number",
+      "kicker": "",
+      "title": "",
+      "items": [
+       {
+        "label": "PHP installs",
+        "value": "167M",
+        "detail": "Qualys data",
+        "tone": "neutral"
+       },
+       {
+        "label": "end-of-life",
+        "value": "71%",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "Sab se zyada nishana \"telecom\" aur \"education\" sectors bane.",
+     "cue": "",
+     "graphic": {
+      "type": "bars",
+      "kicker": "CHECK POINT · 22 OCT 2026",
+      "title": "Most targeted sectors",
+      "items": [
+       {
+        "label": "Telecom",
+        "value": "20%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Education",
+        "value": "18%",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "Global average",
+        "value": "10%",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "what",
+   "title": "What it is",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "vo": "Do \"CVEs\" hain, dono ka score 9.2 \"critical\" hai.",
+     "cue": "",
+     "graphic": {
+      "type": "gauge",
+      "kicker": "2 CVES",
+      "title": "PHP core",
+      "items": [
+       {
+        "label": "CVSS v4.0",
+        "value": "9.2",
+        "detail": "critical",
+        "tone": "bad"
+       },
+       {
+        "label": "CVE-2026-109618",
+        "value": "",
+        "detail": "OOM corruption",
+        "tone": "bad"
+       },
+       {
+        "label": "CVE-2026-109619",
+        "value": "",
+        "detail": "stale global state",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "Na \"password\" chahiye, na koi \"click\": seedha \"server\" par code chalta hai.",
+     "cue": "",
+     "graphic": {
+      "type": "flow",
+      "kicker": "",
+      "title": "Remote Code Execution",
+      "items": [
+       {
+        "label": "attacker",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "your server",
+        "value": "",
+        "detail": "mod_php",
+        "tone": "bad"
+       },
+       {
+        "label": "code runs",
+        "value": "",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "NO LOGIN NEEDED",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "risk",
+   "title": "Who is at risk",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "vo": "Khatra un sab ko hai jo \"PHP\" par chalti sites rakhte hain.",
+     "cue": "",
+     "graphic": {
+      "type": "cards",
+      "kicker": "WHO IS AT RISK",
+      "title": "affected",
+      "items": [
+       {
+        "label": "PHP-FPM",
+        "value": "runtimes",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "mod_php",
+        "value": "runtimes",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "php-cgi",
+        "value": "runtimes",
+        "detail": "",
+        "tone": "bad"
+       },
+       {
+        "label": "WordPress",
+        "value": "apps",
+        "detail": "RCE",
+        "tone": "bad"
+       },
+       {
+        "label": "Drupal",
+        "value": "apps",
+        "detail": "RCE demo",
+        "tone": "bad"
+       },
+       {
+        "label": "Laravel",
+        "value": "apps",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "Purane versions ko koi fix nahi milega.",
+     "cue": "",
+     "graphic": {
+      "type": "versions",
+      "kicker": "PHP VERSIONS",
+      "title": "patched vs end-of-life",
+      "items": [
+       {
+        "label": "7.4",
+        "value": "",
+        "detail": "no fix",
+        "tone": "bad"
+       },
+       {
+        "label": "8.0",
+        "value": "",
+        "detail": "no fix",
+        "tone": "bad"
+       },
+       {
+        "label": "8.1",
+        "value": "",
+        "detail": "no fix",
+        "tone": "bad"
+       },
+       {
+        "label": "8.2",
+        "value": "",
+        "detail": "8.2.35",
+        "tone": "good"
+       },
+       {
+        "label": "8.3",
+        "value": "",
+        "detail": "8.3.36",
+        "tone": "good"
+       },
+       {
+        "label": "8.4",
+        "value": "",
+        "detail": "8.4.27",
+        "tone": "good"
+       }
+      ],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "midcta",
+   "title": "Mid CTA",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "vo": "Comment mein batayen aap ki \"hosting\" kya hai aur \"PHP version\" kaunsa.",
+     "cue": "",
+     "graphic": {
+      "type": "comment",
+      "kicker": "",
+      "title": "hosting ? PHP version ?",
+      "items": [
+       {
+        "label": "shared hosting",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "VPS",
+        "value": "",
+        "detail": "",
+        "tone": "accent"
+       },
+       {
+        "label": "Docker",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "PHP 8.1",
+        "value": "",
+        "detail": "",
+        "tone": "accent"
+       }
+      ],
+      "lines": [
+       "VPS · PHP 8.1",
+       "step 1: upgrade → 8.3.36"
+      ],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "fix",
+   "title": "Fix",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [
+    "S1"
+   ],
+   "lines": [
+    {
+     "vo": "Pehla step: apna asal \"version\" check karein.",
+     "cue": "",
+     "graphic": {
+      "type": "terminal",
+      "kicker": "STEP 1",
+      "title": "check real version",
+      "items": [
+       {
+        "label": "backport = same version number",
+        "value": "",
+        "detail": "",
+        "tone": "good"
+       }
+      ],
+      "lines": [
+       "$ php -v",
+       "+ PHP 8.3.36 (cli)"
+      ],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "Doosra step: \"update\" karein in versions par.",
+     "cue": "",
+     "graphic": {
+      "type": "table",
+      "kicker": "STEP 2",
+      "title": "update",
+      "items": [
+       {
+        "label": "8.5",
+        "value": "≥ 8.5.12",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "8.4",
+        "value": "≥ 8.4.27",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "8.3",
+        "value": "≥ 8.3.36",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "8.2",
+        "value": "≥ 8.2.35",
+        "detail": "",
+        "tone": "good"
+       }
+      ],
+      "lines": [
+       "branch | safe version | status"
+      ],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "recap",
+   "title": "Recap",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "vo": "Yaad rakhein: check, update, aur attack ke nishan dekhein. Ye \"developing story\" hai.",
+     "cue": "",
+     "graphic": {
+      "type": "checklist",
+      "kicker": "CHECKLIST",
+      "title": "PHP2Shell",
+      "items": [
+       {
+        "label": "check real version",
+        "value": "",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "update",
+        "value": "",
+        "detail": "",
+        "tone": "good"
+       },
+       {
+        "label": "temporary shield",
+        "value": "",
+        "detail": "",
+        "tone": "warn"
+       },
+       {
+        "label": "signs of attack",
+        "value": "",
+        "detail": "",
+        "tone": "bad"
+       }
+      ],
+      "lines": [],
+      "stamp": "UPDATED · 23 OCT 2026 · DEVELOPING",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  },
+  {
+   "kind": "helpcta",
+   "title": "Help",
+   "visual": "",
+   "onScreen": [],
+   "sourceIds": [],
+   "lines": [
+    {
+     "vo": "Madad chahiye to comment mein \"FIX\" likhein, ye bilkul free hai.",
+     "cue": "",
+     "graphic": {
+      "type": "help",
+      "kicker": "free · no paid service",
+      "title": "",
+      "items": [
+       {
+        "label": "check",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "fix",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       },
+       {
+        "label": "upgrade",
+        "value": "",
+        "detail": "",
+        "tone": "neutral"
+       }
+      ],
+      "lines": [
+       "FIX · WordPress · PHP 8.1"
+      ],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    },
+    {
+     "vo": "Video share karein aur \"subscribe\" karein.",
+     "cue": "",
+     "graphic": {
+      "type": "outro",
+      "kicker": "",
+      "title": "",
+      "items": [],
+      "lines": [],
+      "stamp": "",
+      "highlights": [],
+      "sourceId": ""
+     }
+    }
+   ]
+  }
+ ],
+ "thumbnail": {
+  "jargonTitle": "PHP2Shell",
+  "urduLine": "بڑا خطرہ،\nاور اس کا [[عملی حل]]",
+  "urduLineRoman": "Bara khatra, aur us ka amli hal",
+  "stamp": "PATCH NOW · HELP OTHERS",
+  "keyVisual": "PHP server shell access"
+ },
+ "youtube": {
+  "description": "x",
+  "tags": [
+   "php"
+  ],
+  "hashtags": [
+   "PHP2Shell"
+  ]
+ },
+ "conceptItems": [],
+ "openQuestions": []
+}
