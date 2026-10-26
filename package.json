@@ -1,6 +1,6 @@
 {
   "name": "content-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Content Studio: a creator's video studio on their own PC (playlists, plans, previews, recording, dubs, editing and finals).",
   "type": "module",

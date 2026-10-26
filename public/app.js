@@ -137,21 +137,19 @@ function homePage() {
   );
 }
 
-// ---------- add video (template picker; graphics-driven arrives in Phase 2) ----------
+// ---------- add video: pick the playlist; the kind of video is chosen on the next page ----------
 function addVideoDialog(slug) {
-  const dlg = $('#dlg');
   const lists = STATE.playlists;
-  const pick = h('select', {}, lists.map((p) => h('option', {value: p.slug, selected: p.slug === slug}, p.name)));
+  if (slug || lists.length === 1) return void (location.hash = `#/p/${slug || lists[0].slug}/new-video`);
+  const dlg = $('#dlg');
+  const pick = h('select', {}, lists.map((p) => h('option', {value: p.slug}, p.name)));
   dlg.replaceChildren(
     h('h2', {}, 'Add a video'),
-    h('p', {class: 'muted'}, 'Pick the playlist, then how the video is made.'),
-    lists.length ? pick : h('p', {}, 'Create a playlist first.'),
-    h('button', {class: 'choice', disabled: !lists.length, onclick: () => {
-      dlg.close();
-      location.hash = `#/p/${pick.value}/new-video`;
-    }}, 'Graphics-driven', h('small', {}, 'Concept (text or PDF) → plan PDF → 540p preview → record → dubs → finals.')),
-    h('button', {class: 'choice', disabled: true}, 'Creator-driven', h('small', {}, 'Filmed by the creator. Planned for later.')),
-    h('div', {class: 'row', style: 'margin-top:18px;justify-content:flex-end'}, h('button', {onclick: () => dlg.close()}, 'Close')),
+    h('p', {class: 'muted'}, lists.length ? 'Pick the playlist. Its kind of video comes first on the next page, and you can change it for this video there.' : 'Create a playlist first.'),
+    lists.length ? pick : null,
+    h('div', {class: 'row', style: 'margin-top:18px;justify-content:flex-end;gap:8px'},
+      h('button', {onclick: () => dlg.close()}, 'Close'),
+      lists.length ? h('button', {class: 'primary', onclick: () => (dlg.close(), (location.hash = `#/p/${pick.value}/new-video`))}, 'Continue') : null),
   );
   dlg.showModal();
 }
